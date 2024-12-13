@@ -1,0 +1,31 @@
+{
+  "Hobby": [
+    {
+      "name": "전병주",
+      "id": 1,
+      "age": 23,
+      "hobby": "당구",
+      "phoneNumber": "010-9165-7205",
+      "email": "aaaa@gmail.com",
+      "withMe": "O"
+    },
+    {
+      "name": "호날두",
+      "id": 2,
+      "age": 3,
+      "hobby": "야구",
+      "phoneNumber": "51515",
+      "email": "ㅇㄹ@ㅇㄹㄴㅁㄹ.dsfsf",
+      "withMe": "O"
+    },
+    {
+      "name": "메시",
+      "id": 3,
+      "age": 3,
+      "hobby": "축구",
+      "phoneNumber": "51515",
+      "email": "ㅇㄹ@ㅇㄹㄴㅁㄹ.dsfsf",
+      "withMe": "O"
+    }
+  ]
+}
