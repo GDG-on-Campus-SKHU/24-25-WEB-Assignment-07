@@ -1,0 +1,34 @@
+{
+  "persons": [
+    {
+      "name": "kimsan",
+      "email": "san9901@naver.com",
+      "age": 22,
+      "id": 1734070329055,
+      "city": "강원도",
+      "sex": "female",
+      "favorite": "윈터",
+      "joinDate": "2024-12-13"
+    },
+    {
+      "id": 1734071416758,
+      "name": "김산호",
+      "email": "san9901@naver.com",
+      "age": 22,
+      "city": "서울",
+      "sex": "male",
+      "favorite": "윈터",
+      "joinDate": "2024-12-13"
+    },
+    {
+      "id": 1734072478582,
+      "name": "ㄴㄹㄴㄹㅇ",
+      "email": "dsfdfa",
+      "age": 2,
+      "city": "adfa",
+      "sex": "male",
+      "favorite": "윈터",
+      "joinDate": "2024-12-13"
+    }
+  ]
+}
