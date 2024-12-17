@@ -105,7 +105,7 @@ function App() {
   const firstDelete = async () => {
     try {
       const response = await axios.delete(
-        "http://localhost:3000/baseballplayer/1"
+        `http://localhost:3000/baseballplayer/${id}` // put에서 사용한 것처럼 동일하게 동적으로 원하는 변수를 동적으로 삭제
       );
       if (response.status === 200) {
         console.log(response.data);
@@ -169,10 +169,10 @@ function App() {
         />
       </div>
       <div>
-        <button onClick={firstPut}>김지찬 정보 수정하기</button>
+        <button onClick={firstPut}>야구선수 정보 수정하기</button>
       </div>
       <div>
-        <button onClick={firstDelete}>김지찬 정보 삭제하기</button>
+        <button onClick={firstDelete}>야구선수 정보 삭제하기</button>
       </div>
       <div>
         <button onClick={firstGet}>삼성 야구 선수 타순 불러오기</button>
