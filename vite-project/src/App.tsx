@@ -79,16 +79,19 @@ function App() {
   const firstPut = async () => {
     try {
       const response = await axios.put(
-        "http://localhost:3000/baseballplayer/1",
+        `http://localhost:3000/baseballplayer/${id}`,
+        // 백틱을 사용한 문자열에서 ${} 구문은 변수를 동적으로 삽입할 수 있게 도와준다.
+        // 동적으로 삽입이 가능하다. ->  프로그램 실행 중에 변수나 값을 실시간으로 문자열에 삽입
+        // 정적으로 삽입을 하는 경우 우리가 이전에 예제 코드로 사용했던 경우 ->"http://localhost:3000/baseballplayer/1" 다음과 같이 사용.
         {
-          id: 1,
-          name: "김지찬",
-          number: 10,
-          game: 167,
-          avg: 0.312,
-          obp: 0.422,
-          slg: 0.569,
-          ops: 0.1021,
+          id: id,
+          name: name,
+          number: number,
+          game: game,
+          avg: avg,
+          obp: obp,
+          slg: slg,
+          ops: ops,
         }
       );
       if (response.status === 200) {
