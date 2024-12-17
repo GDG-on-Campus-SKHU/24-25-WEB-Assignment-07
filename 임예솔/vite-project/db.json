@@ -1,0 +1,28 @@
+{
+  "Center": [
+    {
+      "centerName": "더플라스틱 문래",
+      "instaAccount": "@theplastik_mullae",
+      "centerLocation": "문래",
+      "id": "1"
+    },
+    {
+      "centerName": "더플라스틱 염창",
+      "instaAccount": "@theplastik_yeomchang",
+      "centerLocation": "염창",
+      "id": "2"
+    },
+    {
+      "centerName": "캐치스톤 1호점",
+      "instaAccount": "@catchstone_bucheon",
+      "centerLocation": "부천",
+      "id": "3"
+    },
+    {
+      "centerName": "임예솔짱짱맨암장",
+      "instaAccount": "@sol_jjang",
+      "centerLocation": "온수",
+      "id": "5"
+    }
+  ]
+}
